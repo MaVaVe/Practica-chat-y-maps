@@ -10,7 +10,7 @@ const ChatPage = () => {
 // Replace with your server address
 
     useEffect(() => {
-        const _socket = io('http://10.2.218.25:3000');
+        const _socket = io('http://172.20.10.4:3000');
         setSocket(_socket)
     }, []);
 
